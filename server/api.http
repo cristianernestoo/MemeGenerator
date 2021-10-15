@@ -1,0 +1,16 @@
+//listPublicMemes test - OK
+GET http://localhost:3001/api/memes/public
+
+
+###
+POST http://localhost:3001/api/memes
+Content-Type: application/json
+
+{"id_template": 0, "title": "ciao", "text0" : "ciao", "text1" : "ciao", "text2" : null, "text3" : null, "color" : "ffffff",  "font" : "helvetica", "size" : "8", "protected" : 0 , "image" : "" }
+
+
+###
+
+GET http://localhost:3001/api/sessions/current
+
+
